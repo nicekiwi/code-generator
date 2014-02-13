@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+}
+
+#output-gen-code {
+	width: 100%;
+	min-height: 300px;
+}
+
+.item {
+	background-color: #E0E0E0;
+	padding: 15px;
+}
