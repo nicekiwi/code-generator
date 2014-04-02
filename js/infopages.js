@@ -56,7 +56,7 @@ $( "#gen-code-btn" ).click(function()
 
 	var content = $('.info-content').val();
 
-	var genCode = breadcrumbs + '<div class="cus-content">' + content + '</div><style><!--.content:first-child h1 {position: absolute;top: 71px;left: 25px;}.content .breadcrumbs {margin-bottom: 41px;}--></style>';
+	var genCode = breadcrumbs + '<div class="cus-content">' + content + '</div>' + "\r\n" + '<style><!--.content:first-child h1 {position: absolute;top: 71px;left: 25px;}.content .breadcrumbs {margin-bottom: 41px;} .content.secondary {margin-top:71px;}--></style>';
 
 	$('#output-gen-code').text(genCode);
 });
